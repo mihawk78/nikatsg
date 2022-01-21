@@ -883,6 +883,7 @@ config OOM_TASK_PRIORITY_ADJ_LIMIT
 
 endmenu
 
+<<<<<<< HEAD
 config PROCESS_RECLAIM
 	bool "Enable process reclaim"
 	depends on PROC_FS
@@ -975,3 +976,7 @@ config MULTIPLE_KSWAPD
 	 Values not in the range of 1..16 are ignored.
 
 source "mm/sec_mm/Kconfig"
+=======
+source "mm/sec_mm/Kconfig"
+
+>>>>>>> 5c1050811ebf (Nuke build warnings)
