@@ -6296,6 +6296,7 @@ CONFIG_SEC_INPUT_BOOSTER_QC=y
 # CONFIG_SEC_INPUT_BOOSTER_HANDLER is not set
 # CONFIG_TZIC is not set
 
+<<<<<<< HEAD:arch/arm64/configs/vendor/r9q_eur_openx2_defconfig
 #
 # samsung Performace manager
 #
@@ -6307,6 +6308,8 @@ CONFIG_SEC_PERF_MANAGER=y
 CONFIG_SEC_PERF_MANAGER_QC=y
 # CONFIG_SEC_PERF_MANAGER_SLSI is not set
 # CONFIG_SEC_PERF_MANAGER_MTK is not set
+=======
+>>>>>>> 3365a3f4ecfd (drivers: Nuke kperfmon):arch/arm64/configs/exynos2100-r9sxxx_defconfig
 CONFIG_INPUT_SEC_INPUT=m
 CONFIG_SEC_DEBUG_TSP_LOG=m
 CONFIG_INPUT_TOUCHSCREEN_TCLMV2=m
