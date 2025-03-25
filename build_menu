@@ -44,6 +44,7 @@ build_kernel(){
   echo "${BGREEN}***** Compiling kernel *****${STD}"
   [ ! -d "$OUT_DIR" ] && mkdir $OUT_DIR
   make -j$(nproc) -C $(pwd) $KERNEL_MAKE_ENV
+make -j$(nproc) -C $(pwd) $KERNEL_MAKE_ENV exynos2100-r9sxxx_defconfig
 
   [ -e "$(pwd)/arch/arm64/boot/Image.gz" ] && cp "$(pwd)/arch/arm64/boot/Image.gz" $OUT_DIR/Image.gz
   if [ -e "$(pwd)/arch/arm64/boot/Image" ]; then
